@@ -1,10 +1,10 @@
-# Women Devs SG Content Generator
+# ragTech Content Generator
 
 Generate on-brand visuals for social/community platforms with ready-made templates and strict layout rules per platform.
 
-- **Live app**: https://wds-content-generator.vercel.app/
-- **Templates**: `Hacktoberfest Update`, `Event Promotion`
-- **Platforms**: Instagram post/story, LinkedIn cover, Meetup banner (sizes auto-applied)
+- **Live app**: not deployed, run on local host
+- **Templates**: Episode release, ig story highlight, event announcement, video overlays
+- **Platforms**: Instagram post/story, LinkedIn cover, Meetup banner (sizes auto-applied), YT thumbnail, video overlays
 - **Export**: One-click image export of the composed canvas
 
 ## Tech stack
@@ -34,13 +34,6 @@ npm run lint:fix
 # Prettier
 npm run format
 ```
-
-## Project structure (high-level)
-- `pages/index.tsx` — editor UI and preview pane
-- `templates/hacktoberfest/` — Hacktoberfest card layout
-- `templates/event-promo/` — Event Promotion card layout
-- `components/` — shared UI (logo, buttons, preview, export)
-- `lib/` — platform sizes and typography scale
 
 ## Notes
 - Export uses a DOM-to-image utility to capture the `#canvas` element.
